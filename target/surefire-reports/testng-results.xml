@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="11" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-30T16:45:27 GMT" name="Suite" finished-at="2023-01-30T16:47:14 GMT" duration-ms="107632">
+    <groups>
+    </groups>
+    <test started-at="2023-01-30T16:45:27 GMT" name="Test" finished-at="2023-01-30T16:47:14 GMT" duration-ms="107632">
+      <class name="com.ohrm.testcases.AdminPageTest">
+        <test-method is-config="true" signature="browserConfig()[pri:0, instance:com.ohrm.testcases.AdminPageTest@cc43f62]" started-at="2023-01-30T16:46:00 GMT" name="browserConfig" finished-at="2023-01-30T16:46:10 GMT" duration-ms="9706" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserConfig -->
+        <test-method signature="addUserTest()[pri:0, instance:com.ohrm.testcases.AdminPageTest@cc43f62]" started-at="2023-01-30T16:46:10 GMT" name="addUserTest" finished-at="2023-01-30T16:46:12 GMT" duration-ms="1651" status="FAIL">
+          <exception class="org.openqa.selenium.support.ui.UnexpectedTagNameException">
+            <message>
+              <![CDATA[Element should have been "select" but was "div"
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been "select" but was "div"
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: driver.version: unknown
+at org.openqa.selenium.support.ui.Select.<init>(Select.java:49)
+at com.ohrm.pages.AdminPage.addUserTestPresent(AdminPage.java:25)
+at com.ohrm.testcases.AdminPageTest.addUserTest(AdminPageTest.java:38)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.support.ui.UnexpectedTagNameException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addUserTest -->
+        <test-method is-config="true" signature="closeSetup()[pri:0, instance:com.ohrm.testcases.AdminPageTest@cc43f62]" started-at="2023-01-30T16:46:12 GMT" name="closeSetup" finished-at="2023-01-30T16:46:12 GMT" duration-ms="268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSetup -->
+        <test-method is-config="true" signature="browserConfig()[pri:0, instance:com.ohrm.testcases.AdminPageTest@cc43f62]" started-at="2023-01-30T16:46:12 GMT" name="browserConfig" finished-at="2023-01-30T16:46:20 GMT" duration-ms="8206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserConfig -->
+        <test-method signature="systemUserSection()[pri:0, instance:com.ohrm.testcases.AdminPageTest@cc43f62]" started-at="2023-01-30T16:46:20 GMT" name="systemUserSection" finished-at="2023-01-30T16:46:21 GMT" duration-ms="428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- systemUserSection -->
+        <test-method is-config="true" signature="closeSetup()[pri:0, instance:com.ohrm.testcases.AdminPageTest@cc43f62]" started-at="2023-01-30T16:46:21 GMT" name="closeSetup" finished-at="2023-01-30T16:46:21 GMT" duration-ms="203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSetup -->
+      </class> <!-- com.ohrm.testcases.AdminPageTest -->
+      <class name="com.ohrm.testcases.DashboardPageTest">
+        <test-method is-config="true" signature="browserConfig()[pri:0, instance:com.ohrm.testcases.DashboardPageTest@5b218417]" started-at="2023-01-30T16:46:21 GMT" name="browserConfig" finished-at="2023-01-30T16:46:28 GMT" duration-ms="7210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserConfig -->
+        <test-method signature="buzzLatestPostsSection()[pri:0, instance:com.ohrm.testcases.DashboardPageTest@5b218417]" started-at="2023-01-30T16:46:28 GMT" name="buzzLatestPostsSection" finished-at="2023-01-30T16:46:28 GMT" duration-ms="482" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buzzLatestPostsSection -->
+        <test-method is-config="true" signature="closeSetup()[pri:0, instance:com.ohrm.testcases.DashboardPageTest@5b218417]" started-at="2023-01-30T16:46:28 GMT" name="closeSetup" finished-at="2023-01-30T16:46:29 GMT" duration-ms="396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSetup -->
+        <test-method is-config="true" signature="browserConfig()[pri:0, instance:com.ohrm.testcases.DashboardPageTest@5b218417]" started-at="2023-01-30T16:46:29 GMT" name="browserConfig" finished-at="2023-01-30T16:46:35 GMT" duration-ms="6364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserConfig -->
+        <test-method signature="employeeDistributionLocationSection()[pri:0, instance:com.ohrm.testcases.DashboardPageTest@5b218417]" started-at="2023-01-30T16:46:35 GMT" name="employeeDistributionLocationSection" finished-at="2023-01-30T16:46:36 GMT" duration-ms="551" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- employeeDistributionLocationSection -->
+        <test-method is-config="true" signature="closeSetup()[pri:0, instance:com.ohrm.testcases.DashboardPageTest@5b218417]" started-at="2023-01-30T16:46:36 GMT" name="closeSetup" finished-at="2023-01-30T16:46:36 GMT" duration-ms="280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSetup -->
+        <test-method is-config="true" signature="browserConfig()[pri:0, instance:com.ohrm.testcases.DashboardPageTest@5b218417]" started-at="2023-01-30T16:46:36 GMT" name="browserConfig" finished-at="2023-01-30T16:46:44 GMT" duration-ms="7720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserConfig -->
+        <test-method signature="employeesLeaveTodaySection()[pri:0, instance:com.ohrm.testcases.DashboardPageTest@5b218417]" started-at="2023-01-30T16:46:44 GMT" name="employeesLeaveTodaySection" finished-at="2023-01-30T16:46:44 GMT" duration-ms="578" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- employeesLeaveTodaySection -->
+        <test-method is-config="true" signature="closeSetup()[pri:0, instance:com.ohrm.testcases.DashboardPageTest@5b218417]" started-at="2023-01-30T16:46:44 GMT" name="closeSetup" finished-at="2023-01-30T16:46:45 GMT" duration-ms="306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSetup -->
+        <test-method is-config="true" signature="browserConfig()[pri:0, instance:com.ohrm.testcases.DashboardPageTest@5b218417]" started-at="2023-01-30T16:46:45 GMT" name="browserConfig" finished-at="2023-01-30T16:46:53 GMT" duration-ms="8251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserConfig -->
+        <test-method signature="employteeDistributionSubUnitSection()[pri:0, instance:com.ohrm.testcases.DashboardPageTest@5b218417]" started-at="2023-01-30T16:46:53 GMT" name="employteeDistributionSubUnitSection" finished-at="2023-01-30T16:46:53 GMT" duration-ms="502" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- employteeDistributionSubUnitSection -->
+        <test-method is-config="true" signature="closeSetup()[pri:0, instance:com.ohrm.testcases.DashboardPageTest@5b218417]" started-at="2023-01-30T16:46:53 GMT" name="closeSetup" finished-at="2023-01-30T16:46:54 GMT" duration-ms="213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSetup -->
+        <test-method is-config="true" signature="browserConfig()[pri:0, instance:com.ohrm.testcases.DashboardPageTest@5b218417]" started-at="2023-01-30T16:46:54 GMT" name="browserConfig" finished-at="2023-01-30T16:47:03 GMT" duration-ms="9783" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserConfig -->
+        <test-method signature="myActionSection()[pri:0, instance:com.ohrm.testcases.DashboardPageTest@5b218417]" started-at="2023-01-30T16:47:03 GMT" name="myActionSection" finished-at="2023-01-30T16:47:04 GMT" duration-ms="1015" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myActionSection -->
+        <test-method is-config="true" signature="closeSetup()[pri:0, instance:com.ohrm.testcases.DashboardPageTest@5b218417]" started-at="2023-01-30T16:47:04 GMT" name="closeSetup" finished-at="2023-01-30T16:47:05 GMT" duration-ms="746" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSetup -->
+        <test-method is-config="true" signature="browserConfig()[pri:0, instance:com.ohrm.testcases.DashboardPageTest@5b218417]" started-at="2023-01-30T16:47:05 GMT" name="browserConfig" finished-at="2023-01-30T16:47:14 GMT" duration-ms="8378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserConfig -->
+        <test-method signature="quickStartSection()[pri:0, instance:com.ohrm.testcases.DashboardPageTest@5b218417]" started-at="2023-01-30T16:47:14 GMT" name="quickStartSection" finished-at="2023-01-30T16:47:14 GMT" duration-ms="642" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quickStartSection -->
+        <test-method is-config="true" signature="closeSetup()[pri:0, instance:com.ohrm.testcases.DashboardPageTest@5b218417]" started-at="2023-01-30T16:47:14 GMT" name="closeSetup" finished-at="2023-01-30T16:47:14 GMT" duration-ms="276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSetup -->
+      </class> <!-- com.ohrm.testcases.DashboardPageTest -->
+      <class name="com.ohrm.testcases.LoginPageTest">
+        <test-method is-config="true" signature="browserConfig()[pri:0, instance:com.ohrm.testcases.LoginPageTest@76a4ebf2]" started-at="2023-01-30T16:45:27 GMT" name="browserConfig" finished-at="2023-01-30T16:45:41 GMT" duration-ms="14102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserConfig -->
+        <test-method signature="companyLinkTest()[pri:0, instance:com.ohrm.testcases.LoginPageTest@76a4ebf2]" started-at="2023-01-30T16:45:41 GMT" name="companyLinkTest" finished-at="2023-01-30T16:45:42 GMT" duration-ms="680" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- companyLinkTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.ohrm.testcases.LoginPageTest@76a4ebf2]" started-at="2023-01-30T16:45:42 GMT" name="closeBrowser" finished-at="2023-01-30T16:45:43 GMT" duration-ms="841" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="browserConfig()[pri:0, instance:com.ohrm.testcases.LoginPageTest@76a4ebf2]" started-at="2023-01-30T16:45:43 GMT" name="browserConfig" finished-at="2023-01-30T16:45:47 GMT" duration-ms="4745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserConfig -->
+        <test-method signature="forgotPasswordTest()[pri:0, instance:com.ohrm.testcases.LoginPageTest@76a4ebf2]" started-at="2023-01-30T16:45:47 GMT" name="forgotPasswordTest" finished-at="2023-01-30T16:45:49 GMT" duration-ms="1955" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPasswordTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.ohrm.testcases.LoginPageTest@76a4ebf2]" started-at="2023-01-30T16:45:49 GMT" name="closeBrowser" finished-at="2023-01-30T16:45:50 GMT" duration-ms="349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="browserConfig()[pri:0, instance:com.ohrm.testcases.LoginPageTest@76a4ebf2]" started-at="2023-01-30T16:45:50 GMT" name="browserConfig" finished-at="2023-01-30T16:45:54 GMT" duration-ms="4296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserConfig -->
+        <test-method signature="validateLogin()[pri:0, instance:com.ohrm.testcases.LoginPageTest@76a4ebf2]" started-at="2023-01-30T16:45:54 GMT" name="validateLogin" finished-at="2023-01-30T16:45:56 GMT" duration-ms="1916" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogin -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.ohrm.testcases.LoginPageTest@76a4ebf2]" started-at="2023-01-30T16:45:56 GMT" name="closeBrowser" finished-at="2023-01-30T16:45:56 GMT" duration-ms="262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="browserConfig()[pri:0, instance:com.ohrm.testcases.LoginPageTest@76a4ebf2]" started-at="2023-01-30T16:45:56 GMT" name="browserConfig" finished-at="2023-01-30T16:46:00 GMT" duration-ms="3900" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserConfig -->
+        <test-method signature="validateTitleTest()[pri:0, instance:com.ohrm.testcases.LoginPageTest@76a4ebf2]" started-at="2023-01-30T16:46:00 GMT" name="validateTitleTest" finished-at="2023-01-30T16:46:00 GMT" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitleTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.ohrm.testcases.LoginPageTest@76a4ebf2]" started-at="2023-01-30T16:46:00 GMT" name="closeBrowser" finished-at="2023-01-30T16:46:00 GMT" duration-ms="173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.ohrm.testcases.LoginPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
