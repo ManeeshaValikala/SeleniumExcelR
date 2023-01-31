@@ -1,0 +1,40 @@
+
+TDD: Test Driven Development(Focus on writing TC's and then the code)
+BDD:Behaviour Driven Development
+
+
+Folder Structure:
+src/main/java:will contain main code related to JAVA and reusable functions
+src/main/resources:will contain configuration files related to code
+src/test/java:will contain the testcases
+src/test/resources:will contain test data files
+
+Design:
+1.Page Object Model
+2.Singleton
+
+Integration:
+Java
+selenium
+TestNG
+ApachePOI
+Git
+Maven
+Jenkins
+
+properties file
+
+
+Package Names: Reverse of the domain name
+
+Information:
+->testcase:
+       -knows what to test
+       -knows the expected output
+       -knows what data or input to be used
+       -knows how to compare and mark the cases as pass/fail
+       
+       -does not know how to test
+       -does not know the actual output
+
+
